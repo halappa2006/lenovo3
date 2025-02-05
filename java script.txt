@@ -1,0 +1,10 @@
+function printStudentInfo(name, Class, semMarks) {
+    const average = semMarks.reduce((sum, mark) => sum + mark, 0) / semMarks.length;
+    console.log(Name: ${name});
+    console.log(Class: ${Class});
+    console.log(Average Marks: ${average.toFixed(2)});
+  }
+  const Name = "Halappa h";
+  const Class = "Diploma";
+  const allSemCgpa = [8.89, 9.55, 9.23, 9.69];
+  printStudentInfo(Name, Class, allSemCgpa);
