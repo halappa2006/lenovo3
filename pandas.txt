@@ -1,0 +1,10 @@
+import pandas as pd
+data=[
+    {'Name':'halappa','Age':18,'City':'itagi'},
+    {'Name':'shivaraj','Age':20,'City':'davanagere'},
+    {'Name':'adithya','Age':18,'City':'harihara'},
+    {'Name':'abhi','Age':18,'City':'ranebenur'},
+    
+]
+df=pd.DataFrame(data)
+print(df)
